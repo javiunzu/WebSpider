@@ -5,16 +5,19 @@ Contents:
 1. Requirements
 2. Installation
 3. Using WebSpider
-================
+
 
 1. Requirements
+=============
 This module is written in python3.5.1. It makes use of the module BeatifulSoup for parsing HTML.
 For the moment only the standard HTML parser bundled with BS is used.
 
 2. Installation
+=============
 I'm your daily python module. Just add me to your module folder, or extend the environment variable PYTHONPATH with the folder cointaining the module. Afterwards, just import me  whole or each class separately.
 
 3. Using WebSpider
+ ===============
 Make an instance of the object. It can be initialiazed just empty or it can be seeded with a list of websites.
 my_spider = WebSpider()
 my_seeded_spider = WebSpider(["https://www.python.org"])
